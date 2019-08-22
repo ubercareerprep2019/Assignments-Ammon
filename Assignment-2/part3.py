@@ -86,8 +86,8 @@ def get_dfs(start_node_data, visited=set()):
 			get_dfs(node.data)
 
 
-print("DFS starting at 2")
-get_dfs(2)
+# print("DFS starting at 2")
+# get_dfs(2)
 
 
 # Graphs - Ex3
@@ -107,5 +107,5 @@ def get_bfs(start_node_data):
 			queue.extend([_node.data for _node in adj_list])
 
 
-print("BFS starting at 2")
-get_bfs(2)
+# print("BFS starting at 2")
+# get_bfs(2)
